@@ -1,5 +1,5 @@
 body {
-  background-color: #E6E9ED;
+  background-color: #C0504D;
   color: #3F5D78;
 }
 
@@ -12,14 +12,14 @@ h1 {
   padding: 5px;
   width: 90%;
   height: 96px;
-  background-color: #BAC5CF;
+  /*background-color: #BAC5CF;*/
 }
 
 #content {
   margin: auto;
   padding: 5px;
   width: 90%;
-  background-color: #BAC5CF;
+  /*background-color: #BAC5CF;*/
   position: relative;
   top: 10px;
 }
@@ -34,4 +34,9 @@ li {
 
 #headerList {
   float: right;
+  margin: 40px;
+}
+
+.headerListItem {
+  margin: 20px;
 }
