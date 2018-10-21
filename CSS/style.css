@@ -102,3 +102,8 @@ strong {
   margin: auto;
   padding: 3px;
 }
+
+#logoButton a {
+  color: #FCE4E6;
+  text-decoration: none;
+}
