@@ -1,51 +1,104 @@
 body {
   background-color: #FCE4E6;
   color: #3F5D78;
+  margin: 0;
 }
 
 h1 {
   float: left;
+  font-size: 25px;
+  position: relative;
+  left: 20px;
 }
 
 #headerWrapper {
-  margin: auto;
-  padding: 0px;
-  /*padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-left: 0px;*/
+  position: fixed;
+  z-index: 3;
   width: 100%;
-  height: 96px;
-  background-color: #F9C6CA;
-  border: solid;
-  border-color: black;
+  height: 70px;
+  background-color: black;
+  color: #FCE4E6;
 }
 
 #content {
   margin: auto;
   padding: 5px;
   width: 90%;
-  background-color: #F9C6CA;
   position: relative;
-  top: 10px;
+  top: 70px;
 }
 
 ul {
   list-style-type: none;
 }
 
-li {
-
-}
-
 #headerList {
   float: right;
-  margin: 40px;
+  margin: 20px;
 }
 
 .headerListItem {
-  margin: 20px;
+  margin: 30px;
   display: inline;
+}
+
+a:link {
+  color: #FCE4E6;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FCE4E6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #FCE4E6;
+  text-decoration: none;
+}
+
+footer {
+  position: relative;
+  top: 75px;
+  height: 150px;
+  background-color: /*#B55E64*/#303030;
+  border-top-color: /*#923940*/black;
+  border-top-width: 5px;
+  border-top-style: double;
+  font-size: 13px;
+  color: #FCE4E6;
+}
+
+.centerImage {
+  width: 300px;
+  margin: auto;
+  border: ridge;
+  padding: 8px;
+  padding-bottom: 8px;
+  border-color: grey;
+  background-color: #F9C6CA;
+}
+
+strong {
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.quote {
+  width: 500px;
+  background-color: #F9C6CA;
+  margin: auto;
+  padding: 8px;
+  border-color: grey;
+  border: ridge;
+}
+
+#poemQuote {
+  width: 300px;
+  margin: auto;
+  padding: 3px;
 }
