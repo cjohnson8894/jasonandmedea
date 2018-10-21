@@ -97,7 +97,7 @@ strong {
   border: ridge;
 }
 
-#poemQuote {
+.poemQuote {
   width: 300px;
   margin: auto;
   padding: 3px;
